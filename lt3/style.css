@@ -1,0 +1,184 @@
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainbox {
+    width:1325px;
+    height: 1000px;
+    background-color:pink;
+    opacity: 89%;
+}
+#mainbox #firstrow {
+    height:350px;
+    width:100%;
+}
+#mainbox #secondrow {
+    width:100%;
+    height:350px;
+}
+#mainbox #firstrow .Otter {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .Otter img{
+    width:100%;
+    height:40%;
+}
+#mainbox #firstrow .Otter jpg {
+    font-size:12px; 
+}
+#mainbox #firstrow .Axolotl {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .Axolotl img{
+    width:100%;
+    height: 40%;
+}
+#mainbox #firstrow .Axolotl jpg{
+    font-size:12px;
+}
+#mainbox #firstrow .Goldfish {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .Goldfish img{
+    width:100%;
+    height: 40%;
+}
+#mainbox #firstrow .Goldfish jpg{
+    font-size:12px;
+}
+#mainbox #firstrow .Fox {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black;
+}
+#mainbox #firstrow .Fox img{
+    width:100%;
+    height: 40%;
+}
+#mainbox #firstrow .Fox jpg{
+    font-size:12px;
+} 
+#mainbox #firstrow .Scorpion {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    margin-bottom: 1%;
+    float:left;
+    color: black; 
+}
+#mainbox #firstrow .Scorpion img{
+    width:100%;
+    height: 40%;
+}
+#mainbox #firstrow .Scorpion jpg{
+    font-size:12px;
+}
+#mainbox #secondrow .Shark {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .Shark img{
+    width:100%;
+    height: 40%;
+}
+#mainbox #secondrow .Shark jpg{
+    font-size:12px;
+}
+#mainbox #secondrow .Hamster {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .Hamster img{
+    width:100%;
+    height:41%;
+}
+#mainbox #secondrow .Hamster{
+    font-size:15px;
+}
+#mainbox #secondrow .Shihtzu{
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .Shihtzu img{
+    width:100%;
+    height: 41%
+}
+#mainbox #secondrow .Shihtzu jpg{
+    font-size:12px;
+}
+#mainbox #secondrow .Rabbit {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .Rabbit img{
+    width:100%;
+    height: 41%;
+}
+#mainbox #secondrow .Rabbit p {
+    font-size:15px;
+}
+#mainbox #secondrow .Hedgehog {
+    width:15%;
+    height:120%;
+    padding:5px;
+    border: inset 4px red;
+    margin-left:3%;
+    float:left;
+    color: black; 
+}
+#mainbox #secondrow .Hedgehog img{
+    width:100%;
+    height: 41%;
+}
+#mainbox #secondrow .Hedgehog jpg{
+    font-size:12px;
+}
