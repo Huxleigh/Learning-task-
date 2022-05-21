@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+ <head>
+    <title>Climate change | Homepage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+ </head>
+<body>
+    <header>
+      <a href="#" class="logo">Logo</a>
+       <ul>
+         <li><a href="index.html" class="active">Home</a></li>
+         <li><a href="ActionorSolution.html">Actions or Solutions</a></li>
+         <li><a href="Gallery.html">Gallery</a></li>
+         <li><a href="about.html">About Us</a></li>
+       </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="mountain_behind">
+        <h2 id="text">Climate Change</h2> 
+    <a href="#sec" id="btn"> Explore</a>
+        <img src="mountains_front.png" id="mountain_front">
+    </section>
+    <div class="sec" id="sec">
+         <h2>CLIMATE CHANGE</h2>
+    <P>Climate variability includes all the variations in the climate that last longer than individual weather events, whereas the term climate change only refers to those variations that persist for a longer period of time, typically decades or more. In addition to the general meaning in which "climate change" may refer to any time in Earth's history, the term is commonly used to describe the current climate change now underway. In the time since the Industrial Revolution, the climate has increasingly been affected by human activities that are causing global warming and climate change.<br><br>Climate change is impacting human lives and health in a variety of ways. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.</P>
+    </div>
+    
+    <script> 
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+        
+        window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.05 + 'px';
+        mountains_behind.style.top = value * 0.5 + 'px';
+        mountains_front.style.top = value * 0 + 'px';
+        text.style.marginRight = value * 4 + 'px';
+        text.style.marginTop = value * 1.5 + 'px';
+        btn.style.marginTop = value * 1.5 + 'px';
+        header.style.top = value * 0.5 + 'px';    
+        })
+    </script>
+ </body>
+</html>
+    

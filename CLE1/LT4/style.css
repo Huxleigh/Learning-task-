@@ -1,0 +1,30 @@
+body
+{
+    background-image: url(tulipss.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: top center;
+}
+ 
+#main #body h2
+{
+    text-align: center;
+    font-family: Comic Sans Ms;
+    color:rosybrown;
+    font-size:35px;
+}
+
+#main #body h4
+{
+    text-align: center;
+    font-family: Arial;
+    color:rosybrown;
+    font-size:30px;
+}
+#main #body p
+{
+    text-align: center;
+    font-family: Times New Roman;
+    color: rosybrown;
+    font-size:25px;
+}
